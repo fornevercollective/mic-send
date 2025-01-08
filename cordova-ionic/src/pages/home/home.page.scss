@@ -1,0 +1,32 @@
+.my-ionic-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3880ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3171e0;
+}

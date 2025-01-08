@@ -48,3 +48,32 @@ The UI is done using [Alpine.js](https://github.com/alpinejs/alpine) a lightweig
 
 * 🎨 [Maria Muñoz](https://dribbble.com/myacode) for the amazing Neumorphic Components design and code
 * 📚 [Chad Retz](https://github.com/cretz/webrtc-ipfs-signaling) for PoC of using IPFS PubSub as a signaling server
+
+## 📂 Project Structure
+
+```
+cordova-ionic
+└── cordova-ionic
+|   ├── src
+|       ├── app
+|           ├── app.component.ts
+|           ├── app.module.ts
+|           └── app-routing.module.ts
+|       ├── assets
+|           └── icon
+|       ├── index.html
+|       ├── main.ts
+|       ├── pages
+|           └── home
+|               ├── home.page.html
+|               ├── home.page.scss
+|               └── home.page.ts
+|       ├── theme
+|           └── variables.scss
+|       └── types
+|           └── index.ts
+|   ├── config.xml
+|   ├── ionic.config.json
+|   ├── package.json
+|   ├── tsconfig.json
+|   └── README.md
