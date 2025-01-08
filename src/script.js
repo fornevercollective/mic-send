@@ -1,5 +1,5 @@
 import platform from 'platform'
-import Alpine from 'alpinejs'
+import Alpine from 'https://github.com/alpinejs/alpine'
 import './style.css'
 
 window.Alpine = Alpine
